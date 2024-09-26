@@ -39,5 +39,24 @@ printMe("Hello, from Node.js!");
 const snacks = ["Pie", "Cookies", "Pizza", "Donuts", "Chips", "Watermelon"];
 
 const list = snacks.map(snack => `I love ${snack}!`);
-
 console.log(list);
+
+//object literals
+const instructor = "Tyler Schrock";
+const number = "106";
+
+const classroom = {
+    instructor,
+    number
+};
+
+//the above translates to roughly this in Java:
+/*
+classroom {
+    this.instructor = instructor;
+    this.number = number;
+}
+    not a 1:1 re-creation of the Java syntax, but the idea is there. the "this." prefix is implicit.
+*/
+
+console.log(classroom);
