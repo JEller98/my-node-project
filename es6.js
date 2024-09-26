@@ -5,6 +5,9 @@ const b = 255;
 const message = `The color is (${getColor()})`;
 console.log(message);
 
+//spacer
+console.log("-------------------------------------");
+
 //calling a function in a string literal
 function getColor() {
     return `(${r}, ${g}, ${b})`;
@@ -20,6 +23,9 @@ const add = (a, b) => a + b;
 let result = mult(20, 3);
 console.log(result);
 
+//spacer
+console.log("-------------------------------------");
+
 //program gets angry here... hmm.
 // result = add(10, 3);
 // console.log(result);
@@ -33,13 +39,22 @@ const divide = (num, den) => {
 
 console.log(divide(5,0));
 
+//spacer
+console.log("-------------------------------------");
+
 const printMe = msg => console.log(msg);
 printMe("Hello, from Node.js!");
+
+//spacer
+console.log("-------------------------------------");
 
 const snacks = ["Pie", "Cookies", "Pizza", "Donuts", "Chips", "Watermelon"];
 
 const list = snacks.map(snack => `I love ${snack}!`);
 console.log(list);
+
+//spacer
+console.log("-------------------------------------");
 
 //object literals
 const instructor = "Tyler Schrock";
